@@ -21,6 +21,14 @@ html,body {
 	margin: 0;
 }
 
+/* defaults */
+
+img {
+	display: block;
+}
+
+/* site styles */
+
 /* extras */
 
 hr {
