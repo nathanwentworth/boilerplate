@@ -1,7 +1,7 @@
-/* normalize */
+/* # normalize */
 html {font-family: sans-serif;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;}body {margin: 0;padding:0;}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {display: block;}audio,canvas,progress,video {display: inline-block;vertical-align: baseline;}a {background-color: transparent;}a:active,a:hover {outline: 0;}b,strong {font-weight: bold;}img {border: 0;}svg:not(:root) {overflow: hidden;}hr {box-sizing: content-box;height: 0;}pre {overflow: auto;}button {overflow: visible;}audio,canvas,iframe,img,svg,video {vertical-align: middle;}fieldset {border: 0;margin: 0;padding: 0;}
 
-/* universal styles */
+/* # universal styles */
 
 ::-moz-selection {
 	background: #fcb7b3;
@@ -14,22 +14,29 @@ html {font-family: sans-serif;-ms-text-size-adjust: 100%;-webkit-text-size-adjus
 
 html,body {
 	color: #222;
-	font-size: 16px;
 	line-height: 1.375rem;
 	width: 100%;
 	height: 100%;
 	margin: 0;
 }
 
-/* defaults */
+/* # defaults */
 
 img {
 	display: block;
 }
+pre {
+	background: #eee;
+	padding: 1em;
+	border-radius: 6px;
+	display: inline-block;
+}
 
-/* site styles */
+/* # site styles */
 
-/* extras */
+
+
+/* # extras */
 
 hr {
   display: block;
@@ -40,9 +47,10 @@ hr {
   padding: 0;
 }
 
-/* responsive rules */
 
-/* small screens */
+/* # responsive rules */
+
+/* ## small screens */
 @media only screen and (max-width: 480px) {
 	h1 { font-size: 2rem; }
 	h2 { font-size: 1.625rem; }
@@ -50,7 +58,7 @@ hr {
 	h4 { font-size: 1.125rem; }
 }
 
-/* tablets and small screens */
+/* ## tablets and small screens */
 @media only screen (min-width: 480px) and (max-width: 960px) {
 	h1 { font-size: 2.5rem; }
 	h2 { font-size: 2rem; }
@@ -58,7 +66,7 @@ hr {
 	h4 { font-size: 1.125rem; }
 }
 
-/* normal to large screens */
+/* ## normal to large screens */
 @media only screen (min-width: 960px) {
 	h1 { font-size: 3rem; }
 	h2 { font-size: 2.25rem; }
